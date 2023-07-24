@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Fooddie</title>
+  </head>
+  <body>
+    <div class = "navv">
+      <!-- <div class = "nav_left"><img src="logo2.jpeg" alt="logo" width="50%"></div> -->
+      <div class="logo"><a href="index.html">Fooddie.</a></div>
+      <div class="navv_right">
+        <div class="navv_1">Home</div>
+        <div class="navv_2">About Us</div>
+        <div class="navv_3">Contact</div>
+      </div>
+    </div>
+
+    <div class="quotes">
+      <p class="quotes_1">EAT RIGHT FOOD</p>
+      <br />
+      <p class="quotes_2">Eat Healty, it is good for our health.</p>
+    </div>
+
+    <div class="contaner">
+      <div class="contaner_text">
+        <b>We've been making healthy food last for 10 years</b> <br /><br />
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse ab eos
+        omnis, nobis dignissimos perferendis et officia architecto, fugiat
+        possimus eaque qui ullam excepturi suscipit aliquid optio, maiores
+        praesentium soluta alias asperiores saepe commodi consequatur?
+        Perferendis est placeat facere aspernatur!
+      </div>
+      <div class="contaner_img">
+        <img src="images.jpeg" />
+      </div>
+    </div>
+
+    <div class="menu">
+      <p class="menu_heading">
+        Our Delicious <span class="menu_color">Foods</span>
+      </p>
+      <p class="menu_content">
+        Food is any substance consumed to provide nutritional support for an
+        organism.
+      </p>
+
+      <div class="menu_buttons">
+        <button>All</button>
+        <button id="menu_button_selected">Pizza</button>
+        <button>Burger</button>
+        <button>Drinks</button>
+        <button>Sandwich</button>
+      </div>
+    </div>
+
+    <div class = "cardds">
+        <div class="cardd">
+            <div class = "cardd_left"><img src="Card_photo/pizza-1.png" width="20%"></div>
+            <div class = "cardd_right">
+                <div class = "cardd_right_name">Cheese Pizza</div>
+                <div class = "price">
+                    PRICE:  
+                    <spam>$15</spam>
+                </div>
+                <div class = "cardd_right_button"><button>Add to Cart</button></div>
+            </div>
+        </div>
+        <div class="cardd">
+            <div class = "cardd_left"><img src="Card_photo/pizza-2.png" width="20%"></div>
+            <div class = "cardd_right">
+                <div class = "cardd_right_name">Hot Pastrami</div>
+                <div class = "price">
+                    PRICE:  
+                    <spam>$10</spam>
+                </div>
+                <div class = "cardd_right_button"><button>Add to Cart</button></div>
+            </div>
+        </div>
+        <div class="cardd">
+            <div class = "cardd_left"><img src="Card_photo/pizza-3.png" width="20%"></div>
+            <div class = "cardd_right">
+                <div class = "cardd_right_name">Classic Pizza</div>
+                <div class = "price">
+                    PRICE:  
+                    <spam>$9</spam>
+                </div>
+                <div class = "cardd_right_button"><button>Add to Cart</button></div>
+            </div>
+        </div>
+
+        <div class="cardd">
+            <div class = "cardd_left"><img src="Card_photo/pizza-4.png" width="20%"></div>
+            <div class = "cardd_right">
+                <div class = "cardd_right_name">Country Pizza</div>
+                <div class = "price">
+                    PRICE:  
+                    <spam>$13</spam>
+                </div>
+                <div class = "cardd_right_button"><button>Add to Cart</button></div>
+            </div>
+        </div>
+        <div class="cardd">
+            <div class = "cardd_left"><img src="Card_photo/download1.jpeg" width="20%"></div>
+            <div class = "cardd_right">
+                <div class = "cardd_right_name">Margherita Pizza</div>
+                <div class = "price">
+                    PRICE:  
+                    <spam>$20</spam>
+                </div>
+                <div class = "cardd_right_button"><button>Add to Cart</button></div>
+            </div>
+        </div>
+        <div class="cardd">
+            <div class = "cardd_left"><img src="Card_photo/images.jpeg" width="20%"></div>
+            <div class = "cardd_right">
+                <div class = "cardd_right_name">Pepperoni Pizza</div>
+                <div class = "price">
+                    PRICE:  
+                    <spam>$10</spam>
+                </div>
+                <div class = "cardd_right_button"><button>Add to Cart</button></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div>
+      <marquee behavior="scroll" direction=""
+        ><img src="food_photo_1.jpg" width="50%" height="100%" /><img
+          src="food_photo_2.jpg"
+          width="50%"
+          height="10%" /><img src="food_photo_3.jpg" width="50%" height="10%"
+      /></marquee>
+    </div> -->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="food_photo_1.jpg" alt="First slide" width = "80%">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="food_photo_2.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="food_photo_3.jpg" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+    <!-- <footer>
+        <div class = "footer">
+            Restaurant © all rights reserved
+        </div>
+    </footer> -->
+    <!-- <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-muted">&copy; 2022 Company, Inc</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+          </ul>
+        </footer>
+      </div> -->
+      <!-- Footer -->
+      <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+      
+            <!-- Google -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-google"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+      
+            <!-- Github -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2020 Copyright:
+          <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

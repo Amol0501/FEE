@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(backgrund_image.png);
+    background-size: 100% 800px;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    /* background-color: #faf4ea; */
+    /* color: white; */
+}
+
+
+.navv{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 1.2rem; */
+    padding: 16px;
+    padding-left: 60px;
+    padding-right: 165px;
+    box-shadow: 0px 5px 10px 0px #aaa;
+    position: fixed;
+    width: 100%;
+    /* max-width: 100%; */
+    background: white;
+    color: black;
+    opacity: 0.85;
+    z-index: 10;
+}
+
+.logo{
+    color: orange;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+
+.navv_right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 18rem;
+    /* padding-right: 5rem; */
+    transition: 1s;
+}
+
+.navv_1:hover, .navv_2:hover, .navv_3:hover{
+    cursor: pointer;
+    border-bottom: 1.3px solid red;
+}
+
+.quotes{
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 42.4em;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px gray;
+}
+.quotes_1{
+    font-size: 40px;
+}
+.quotes_2{
+    font-size: 30px;
+}
+
+
+.contaner{
+    background-color:rgb(240, 240, 240);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* max-width: 100%; */
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    padding: 90px 10%;
+}
+.contaner_text{
+    font-size: 20px;
+    width: 45%;
+}
+
+.contaner_text b{
+    font-size: 30px;
+}
+
+.contaner_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.contaner_img img{
+    box-shadow: 10px 10px 10px gray;
+    /* width: 100%; */
+    width: 500px;
+    /* height: 10px; */
+}
+
+
+/* ---------------------------------------------------------------------- */
+
+.menu{
+    background-color: #faf4ea;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.menu_heading{
+    font-weight: bold;
+    font-size: 40px;
+    margin-block-end: 20px;
+}
+
+.menu_content{
+    color: #aaa;
+    max-width: 44ch;
+    margin-inline: auto;
+    margin-block-end: 30px;
+}
+
+.menu_color{
+    color: orange;
+    font-size: 40px;
+}
+.menu_buttons{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menu_buttons button{
+    padding: 5px 20px;
+    background-color: white;
+    border: 1px solid white;
+    border: none;
+    font-weight: bold;
+    letter-spacing: -1px;
+    cursor: pointer;
+}
+
+#menu_button_selected{
+    background-color: orange;
+    border: 1px solid hsl(32, 100%, 59%);
+    color: white;
+}
+
+.menu_buttons button:hover{
+    background-color: orange;
+    border: 1px solid hsl(32, 100%, 59%);
+    color: white;
+}
+
+.cardds{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    background-color: #faf4ea;
+    padding: 60px 100px;
+}
+.cardds img{
+    width: 200px;
+    height: 150px;
+}
+.cardd{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+    box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.2);
+    gap: 30px;
+    background-color: white;
+}
+
+.cardd_left{
+    text-align: center;
+}
+
+.cardd_right{
+    display: flex; 
+    flex-direction: column;
+    row-gap: 10px;
+}
+.cardd_right_name{
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+}
+.price{
+    font-weight: 700;
+    color: orange;
+}
+.price spam{
+    font-weight: bolder;
+    color: red;
+
+}
+.cardd_right_button{
+    text-align: center;
+    padding-top: 20px;
+}
+.cardd_right button{
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 5px 10px; 
+}
+.cardd_right button:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+
+.carousel{
+    padding:10% 5%;
+    background-color:#faf4ea;
+    /* box-shadow: 10px 10px 10px black; */
+}
+
+/* .footer{
+    background-color: #aaa;
+    padding: 40px 10px;
+    text-align: center;
+    font-size: 25px;
+} */
