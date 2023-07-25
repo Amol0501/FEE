@@ -10,27 +10,30 @@
     *{
         margin: 0;
         padding: 0;
-        
     }
     body{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         height: 97.7vh;
+        /* height: 100vh; */
+        width: 100%;
         align-items: center;
     }
     .header{
         width: 100%;
-        /* display: block; */
-        font-size: 20px;
+        font-size: 19px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        padding: 10px;
+        /* padding: 10px; */
+        padding-left: 10px;
         background-color: black;
         color: white;
-        
+    }
+    .header img{
+        width: 100px;
     }
     .card{
         display: flex;
@@ -38,8 +41,11 @@
         box-shadow: 1px 1px 5px gray;
     }
     .card_left{
-        background-color: rgb(201, 201, 201);
-        padding: 50px;
+        /* background-color: rgb(201, 201, 201); */
+        padding: 10px;
+    }
+    .card_left img{
+        width: 200px;
     }
     .card_right{
         padding-left: 10px;
@@ -61,7 +67,7 @@
 </style>
 <body>
     <div class = "header">
-        <div>Company Logo</div>
+        <div><img src="logo.jpg" alt=""></div>
         <div>
             <div>Home</div>
             <div>About Us</div>
@@ -71,7 +77,7 @@
 
     <div class = "card">
         <div class = "card_left">
-
+            <img src="download.jpeg" alt="">
         </div>
         <div class = "card_right">
             <div class = "card_name">
