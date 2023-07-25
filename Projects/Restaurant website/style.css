@@ -4,16 +4,24 @@
     font-size: 17px;
     box-sizing: border-box;
 }
+a{
+    color: black;
+    text-decoration: none;
+}
+
 
 body{
     background-image: url(backgrund_image.png);
     background-size: 100% 800px;
     background-repeat: no-repeat;
     background-attachment:scroll;
-    /* background-color: #faf4ea; */
     /* color: white; */
 }
 
+.vsc-initialized{
+    background-color: #faf4ea;
+
+}
 
 .navv{
     display: flex;
@@ -167,7 +175,7 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     gap: 100px;
-    background-color: #faf4ea;
+    /* background-color: #faf4ea; */
     padding: 60px 100px;
 }
 .cardds img{
@@ -224,14 +232,15 @@ body{
 
 
 .carousel{
-    padding:10% 5%;
+    /* padding: 0% 5%; */
+    margin: 10% 5%;
     background-color:#faf4ea;
     /* box-shadow: 10px 10px 10px black; */
 }
 
-/* .footer{
+.footer{
     background-color: #aaa;
     padding: 40px 10px;
     text-align: center;
     font-size: 25px;
-} */
+}
